@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smokytest</title>
+    <style>
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+}
+section{
+    height: 10px;
+}
+h1{
+    padding: 0%;
+    margin: 0%;
+    font-size: 70px;
+    color: #dddd;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-100%);
+    letter-spacing: 1px;
+
+
+}
+h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: anim 0.5s linear forwards;
+}
+@keyframes anim{
+0%{
+    opacity: 0;
+    transform: rotateY(-90deg);
+    filter: blur(10px);
+}
+100%{
+    opacity: 1;
+    transform: rotateY(0deg);
+    filter: blur(0px);
+}
+}
+h1 span:nth-child(1){
+    animation-delay: 1s;
+    color: blue;
+}
+h1 span:nth-child(2){
+    animation-delay: 1.5s;
+    color: blue;
+}
+
+h1 span:nth-child(3){
+    animation-delay: 2s;
+    color: blue;
+}
+h1 span:nth-child(4){
+    animation-delay: 2.5s;
+    color: blue;
+}
+h1 span:nth-child(5){
+    animation-delay: 3s;
+}
+h1 span:nth-child(6){
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(7){
+    animation-delay: 4s;
+}
+h1 span:nth-child(8){
+    animation-delay: 4.5s;
+}
+h1 span:nth-child(9){
+    animation-delay: 5s;
+}
+h1 span:nth-child(10){
+    animation-delay: 5.5s;
+}
+h1 span:nth-child(11){
+    animation-delay: 6s;
+}
+h1 span:nth-child(12){
+    animation-delay: 6.5s;
+    color: blue;
+}
+h1 span:nth-child(13){
+    animation-delay: 7s;
+    color: blue;
+}
+h1 span:nth-child(14){
+    animation-delay: 7.5s;
+    color: blue;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <video src="smoky.mp4" muted="" autoplay=""></video>
+    <section>
+        <h1>
+            <span>T</span>
+            <span>E</span>
+            <span>C</span>
+            <span>H</span>
+            <span>N</span>
+            <span>O</span>
+            <span>L</span>
+            <span>O</span>
+            <span>G</span>
+            <span>I</span>
+            <span>S</span>
+            <span>T</span>
+            <span>A</span>
+            <span>N</span>
+        </h1>
+    </section>
+</body>
+</html>
